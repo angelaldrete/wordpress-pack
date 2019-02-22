@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: db
--- Tiempo de generación: 22-02-2019 a las 16:52:36
+-- Tiempo de generación: 22-02-2019 a las 17:33:45
 -- Versión del servidor: 5.7.11
 -- Versión de PHP: 7.2.14
 
@@ -251,8 +251,9 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (142, '_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2019/02/betty/\'>WordPress 5.1 “Betty”</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/ecwid-e-commerce-plugin-adds-gutenberg-support-focuses-on-small-businesses-to-compete-with-woocommerce\'>WPTavern: Ecwid E-Commerce Plugin Adds Gutenberg Support, Focuses on Small Businesses to Compete with WooCommerce</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/wordpress-5-1-improves-editor-performance-encourages-users-to-update-outdated-php-versions\'>WPTavern: WordPress 5.1 Improves Editor Performance, Encourages Users to Update Outdated PHP Versions</a></li><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2019/02/betty/\'>Dev Blog: WordPress 5.1 “Betty”</a></li></ul></div>', 'no'),
 (143, 'theme_mods_twentynineteen', 'a:1:{s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1550854312;s:4:\"data\";a:2:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}}}}', 'yes'),
 (144, 'current_theme', 'MiTema', 'yes'),
-(145, 'theme_mods_miTema', 'a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;}', 'yes'),
-(146, 'theme_switched', '', 'yes');
+(145, 'theme_mods_miTema', 'a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:1:{s:14:\"menu_principal\";i:2;}s:18:\"custom_css_post_id\";i:-1;}', 'yes'),
+(146, 'theme_switched', '', 'yes'),
+(147, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -273,7 +274,57 @@ CREATE TABLE `wp_postmeta` (
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
-(2, 3, '_wp_page_template', 'default');
+(2, 3, '_wp_page_template', 'default'),
+(3, 5, '_menu_item_type', 'custom'),
+(4, 5, '_menu_item_menu_item_parent', '0'),
+(5, 5, '_menu_item_object_id', '5'),
+(6, 5, '_menu_item_object', 'custom'),
+(7, 5, '_menu_item_target', ''),
+(8, 5, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(9, 5, '_menu_item_xfn', ''),
+(10, 5, '_menu_item_url', 'http://localhost/'),
+(11, 5, '_menu_item_orphaned', '1550855417'),
+(12, 6, '_menu_item_type', 'post_type'),
+(13, 6, '_menu_item_menu_item_parent', '0'),
+(14, 6, '_menu_item_object_id', '2'),
+(15, 6, '_menu_item_object', 'page'),
+(16, 6, '_menu_item_target', ''),
+(17, 6, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(18, 6, '_menu_item_xfn', ''),
+(19, 6, '_menu_item_url', ''),
+(20, 6, '_menu_item_orphaned', '1550855417'),
+(21, 7, '_menu_item_type', 'custom'),
+(22, 7, '_menu_item_menu_item_parent', '0'),
+(23, 7, '_menu_item_object_id', '7'),
+(24, 7, '_menu_item_object', 'custom'),
+(25, 7, '_menu_item_target', ''),
+(26, 7, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(27, 7, '_menu_item_xfn', ''),
+(28, 7, '_menu_item_url', '#Home'),
+(30, 8, '_menu_item_type', 'custom'),
+(31, 8, '_menu_item_menu_item_parent', '0'),
+(32, 8, '_menu_item_object_id', '8'),
+(33, 8, '_menu_item_object', 'custom'),
+(34, 8, '_menu_item_target', ''),
+(35, 8, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(36, 8, '_menu_item_xfn', ''),
+(37, 8, '_menu_item_url', '#nosotros'),
+(39, 9, '_menu_item_type', 'custom'),
+(40, 9, '_menu_item_menu_item_parent', '0'),
+(41, 9, '_menu_item_object_id', '9'),
+(42, 9, '_menu_item_object', 'custom'),
+(43, 9, '_menu_item_target', ''),
+(44, 9, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(45, 9, '_menu_item_xfn', ''),
+(46, 9, '_menu_item_url', '#contacto'),
+(48, 10, '_menu_item_type', 'post_type'),
+(49, 10, '_menu_item_menu_item_parent', '0'),
+(50, 10, '_menu_item_object_id', '2'),
+(51, 10, '_menu_item_object', 'page'),
+(52, 10, '_menu_item_target', ''),
+(53, 10, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(54, 10, '_menu_item_xfn', ''),
+(55, 10, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -315,7 +366,13 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (1, 1, '2019-02-22 16:51:12', '2019-02-22 16:51:12', '<!-- wp:paragraph -->\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n<!-- /wp:paragraph -->', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2019-02-22 16:51:12', '2019-02-22 16:51:12', '', 0, 'http://localhost/?p=1', 0, 'post', '', 1),
 (2, 1, '2019-02-22 16:51:12', '2019-02-22 16:51:12', '<!-- wp:paragraph -->\n<p>This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...or something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>As a new WordPress user, you should go to <a href=\"http://localhost/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>\n<!-- /wp:paragraph -->', 'Sample Page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2019-02-22 16:51:12', '2019-02-22 16:51:12', '', 0, 'http://localhost/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2019-02-22 16:51:12', '2019-02-22 16:51:12', '<!-- wp:heading --><h2>Who we are</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Our website address is: http://localhost.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What personal data we collect and why we collect it</h2><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Comments</h3><!-- /wp:heading --><!-- wp:paragraph --><p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Media</h3><!-- /wp:heading --><!-- wp:paragraph --><p>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Contact forms</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Cookies</h3><!-- /wp:heading --><!-- wp:paragraph --><p>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Embedded content from other websites</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Analytics</h3><!-- /wp:heading --><!-- wp:heading --><h2>Who we share your data with</h2><!-- /wp:heading --><!-- wp:heading --><h2>How long we retain your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What rights you have over your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Where we send your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Visitor comments may be checked through an automated spam detection service.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Your contact information</h2><!-- /wp:heading --><!-- wp:heading --><h2>Additional information</h2><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>How we protect your data</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What data breach procedures we have in place</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What third parties we receive data from</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What automated decision making and/or profiling we do with user data</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Industry regulatory disclosure requirements</h3><!-- /wp:heading -->', 'Privacy Policy', '', 'draft', 'closed', 'open', '', 'privacy-policy', '', '', '2019-02-22 16:51:12', '2019-02-22 16:51:12', '', 0, 'http://localhost/?page_id=3', 0, 'page', '', 0),
-(4, 1, '2019-02-22 16:51:41', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2019-02-22 16:51:41', '0000-00-00 00:00:00', '', 0, 'http://localhost/?p=4', 0, 'post', '', 0);
+(4, 1, '2019-02-22 16:51:41', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2019-02-22 16:51:41', '0000-00-00 00:00:00', '', 0, 'http://localhost/?p=4', 0, 'post', '', 0),
+(5, 1, '2019-02-22 17:10:17', '0000-00-00 00:00:00', '', 'Home', '', 'draft', 'closed', 'closed', '', '', '', '', '2019-02-22 17:10:17', '0000-00-00 00:00:00', '', 0, 'http://localhost/?p=5', 1, 'nav_menu_item', '', 0),
+(6, 1, '2019-02-22 17:10:17', '0000-00-00 00:00:00', ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2019-02-22 17:10:17', '0000-00-00 00:00:00', '', 0, 'http://localhost/?p=6', 1, 'nav_menu_item', '', 0),
+(7, 1, '2019-02-22 17:14:58', '2019-02-22 17:14:58', '', 'Home', '', 'publish', 'closed', 'closed', '', 'home', '', '', '2019-02-22 17:15:33', '2019-02-22 17:15:33', '', 0, 'http://localhost/?p=7', 1, 'nav_menu_item', '', 0),
+(8, 1, '2019-02-22 17:14:59', '2019-02-22 17:14:59', '', 'Nosotros', '', 'publish', 'closed', 'closed', '', 'nosotros', '', '', '2019-02-22 17:15:33', '2019-02-22 17:15:33', '', 0, 'http://localhost/?p=8', 2, 'nav_menu_item', '', 0),
+(9, 1, '2019-02-22 17:14:59', '2019-02-22 17:14:59', '', 'Contacto', '', 'publish', 'closed', 'closed', '', 'contacto', '', '', '2019-02-22 17:15:33', '2019-02-22 17:15:33', '', 0, 'http://localhost/?p=9', 3, 'nav_menu_item', '', 0),
+(10, 1, '2019-02-22 17:15:33', '2019-02-22 17:15:33', ' ', '', '', 'publish', 'closed', 'closed', '', '10', '', '', '2019-02-22 17:15:33', '2019-02-22 17:15:33', '', 0, 'http://localhost/?p=10', 4, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -348,7 +405,8 @@ CREATE TABLE `wp_terms` (
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
-(1, 'Uncategorized', 'uncategorized', 0);
+(1, 'Uncategorized', 'uncategorized', 0),
+(2, 'Menu Principal', 'menu-principal', 0);
 
 -- --------------------------------------------------------
 
@@ -367,7 +425,11 @@ CREATE TABLE `wp_term_relationships` (
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
-(1, 1, 0);
+(1, 1, 0),
+(7, 2, 0),
+(8, 2, 0),
+(9, 2, 0),
+(10, 2, 0);
 
 -- --------------------------------------------------------
 
@@ -389,7 +451,8 @@ CREATE TABLE `wp_term_taxonomy` (
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1, 1, 'category', '', 0, 1);
+(1, 1, 'category', '', 0, 1),
+(2, 2, 'nav_menu', '', 0, 4);
 
 -- --------------------------------------------------------
 
@@ -418,7 +481,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (7, 1, 'comment_shortcuts', 'false'),
 (8, 1, 'admin_color', 'fresh'),
 (9, 1, 'use_ssl', '0'),
-(10, 1, 'show_admin_bar_front', 'true'),
+(10, 1, 'show_admin_bar_front', 'false'),
 (11, 1, 'locale', ''),
 (12, 1, 'wp_capabilities', 'a:1:{s:13:\"administrator\";b:1;}'),
 (13, 1, 'wp_user_level', '10'),
@@ -428,7 +491,9 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (17, 1, 'wp_user-settings', 'post_dfw=off&libraryContent=browse&editor=tinymce&hidetb=1&advImgDetails=show&unfold=1&mfold=o&editor_expand=off&imgsize=full'),
 (18, 1, 'wp_user-settings-time', '1550854296'),
 (19, 1, 'wp_dashboard_quick_press_last_post_id', '4'),
-(20, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:12:\"192.168.96.0\";}');
+(20, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:12:\"192.168.96.0\";}'),
+(21, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
+(22, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}');
 
 -- --------------------------------------------------------
 
@@ -585,19 +650,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT de la tabla `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=147;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=148;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_termmeta`
@@ -609,19 +674,19 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT de la tabla `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT de la tabla `wp_users`

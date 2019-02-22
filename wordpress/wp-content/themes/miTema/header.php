@@ -29,3 +29,14 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+
+  <div class="container">
+    <?php wp_nav_menu(
+          array(
+            'theme_location' => 'menu_principal'
+          )
+        );
+    ?>
+  </div>
+
