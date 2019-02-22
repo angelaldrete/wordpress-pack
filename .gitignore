@@ -1,0 +1,6 @@
+/mysql
+/.git
+/data
+wordpress/wp-content/themes/**/includes/*.css
+wordpress/wp-content/themes/**/*.map
+!wordpress/wp-content/themes/**/estilos.css
