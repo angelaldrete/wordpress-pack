@@ -15,5 +15,7 @@
  */
 
 get_header(); ?>
-Hola mundo!
+
+Hello World!
+
 <?php get_footer(); ?>
